@@ -1,0 +1,35 @@
+.hero{
+    position: relative;
+    margin-bottom: 80px;
+    padding-top: 20px;
+}
+
+.swiper-slide .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+}
+
+.swiper-slide .content h4{
+    text-transform: uppercase;
+    font-size: 1vw; 
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 0.4vw;
+}
+
+.swiper-slide .content h3{
+    font-size: 3vw;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: var(--main_color);
+    font-weight: bolder;
+    line-height: 1.1;
+}
+
+.swiper-slide .content p{
+    font-size: 1.1vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+}

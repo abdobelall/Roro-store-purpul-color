@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+:root{
+  --main_color: #6400f0ff;
+  --p_color: #aaaaaa;
+  --bg_color: #F3F3F3;
+  --white_color: #fff;
+  --color_heading: #253237;
+  --border_color: #d6d6d6d5;
+}
+
+body{
+  background: #fff;
+  font-family: "Inter", sans-serif;
+  padding-top: 150px;
+}
+
+img{
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: var(--color_heading);
+  font-family: "DM Sans", sans-serif;
+}
+
+span{
+  color: var(--main_color);
+}
+
+p{
+  color: var(--p_color);
+}
+
+input,button,select,textarea{
+  outline: none;
+  border: none;
+}
+a{
+  text-decoration: none;
+  color: var(--color_heading);
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1350px;
+}
+
+.btn{
+  padding: 10px 18px;
+  text-transform: capitalize;
+  border-radius: 2px;
+  cursor: pointer;
+  background: var(--main_color);
+  color: var(--white_color);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  transition: 0.3s;
+  width: max-content;
+  border-radius: 30px;
+}
+.btn:hover{
+  scale: 1.1;
+}
+
+
+/* loading */ 
+
+.skeltion{
+  background-color: #e2e5e7;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+  );
+
+  background-size: 40px 100%;
+  background-repeat: no-repeat;
+  background-position: left -40px top 0;
+  animation: shine 1s ease infinite;
+}
+
+@keyframes shine{
+  to{
+    background-position: right -40px top 0;
+  }
+}
+
+
+
+/* Toast */
+
+
+.toast-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.t{
+  border-radius: 50%;
+}
+
+.toast-img{
+  width: auto;
+  height: 50px;
+  object-fit: cover;
+}
+
+.toast-content{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 14px;
+}
+.toast-wrapper strong{
+  overflow: hidden;
+  text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;
+}
+
+.toast-content .btn{
+  margin-top: 5px;
+  font-size: 13px;
+}
