@@ -1,13 +1,46 @@
-# React + Vite
+# 🛒 E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **E-Commerce website** built to demonstrate how online stores work,  
+from product listing to user interaction and clean design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 About the Project
 
-## Expanding the ESLint configuration
+This project represents a complete **online shopping website** concept.  
+It focuses on user experience, clear product presentation, and responsive layouts suitable for all devices.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Roro-store-purpul-color
+The website is designed to simulate a real online store where users can browse products,  
+view details, and enjoy a smooth shopping experience.
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+
+---
+
+## ✨ Features
+
+- Modern and clean UI design
+- Responsive layout (mobile, tablet, desktop)
+- Product listing and cards
+- Product details section
+- Shopping cart UI
+- User-friendly navigation
+- Smooth interactions
+
+---
+
+## 🎨 Design Focus
+
+- Clear product hierarchy
+- Consistent colors and typography
+- Easy navigation
+- User-centered UI/UX
+
+---
